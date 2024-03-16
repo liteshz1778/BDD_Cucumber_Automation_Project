@@ -1,0 +1,3 @@
+browser=chrome
+chromeDriverPath=./Drivers/chromedriver.exe
+geckoDriverPath=./Drivers/geckodriver.exe
