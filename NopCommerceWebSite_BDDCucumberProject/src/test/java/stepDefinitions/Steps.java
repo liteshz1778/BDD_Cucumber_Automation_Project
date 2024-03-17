@@ -12,6 +12,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import Utilities.TakeScreenShotHelper;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -39,12 +41,12 @@ public class Steps extends BaseClass {
 			System.setProperty("webdriver.gecko.driver", prop.getProperty("geckoDriverPath"));
 			driver = new FirefoxDriver();
 		}
+		takeSS = new TakeScreenShotHelper(driver);
 	}
 
 	@Given("User Launch Chrome Browser")
 	public void user_Launch_Chrome_Browser() throws IOException {
 		lp = new LoginPage(driver);
-
 	}
 
 	@When("User opens {string}")
@@ -64,10 +66,11 @@ public class Steps extends BaseClass {
 	}
 
 	@When("Click on Login")
-	public void click_on_Login() throws InterruptedException {
+	public void click_on_Login() throws Exception {
 		logger.info("************* Logging In *****************");
 		lp.loggedIn();
 		Thread.sleep(4000);
+		takeSS.takeScreenShot("ScreenShot_" + BaseClass.currentDateTimeGenerator());
 	}
 
 	@Then("Page Title Should be {string}")
@@ -82,13 +85,14 @@ public class Steps extends BaseClass {
 			logger.info("************* Validating Page Title *****************");
 			Assert.assertEquals(driver.getTitle(), pageTitle);
 		}
-
 	}
 
 	@When("User click on Logout link")
-	public void user_cick_on_Logout_link() throws InterruptedException {
+	public void user_cick_on_Logout_link() throws Exception {
 		logger.info("************* Logged Out Successfully *****************");
 		lp.loggedOut().click();
+		Thread.sleep(5000);
+		takeSS.takeScreenShot("ScreenShot_" + BaseClass.currentDateTimeGenerator());
 	}
 
 	@Then("close browser")
@@ -133,9 +137,11 @@ public class Steps extends BaseClass {
 	}
 
 	@Then("Click on Save button")
-	public void click_on_Save_button() {
+	public void click_on_Save_button() throws Exception {
 		logger.info("************* Saving New Customer Details *****************");
 		addNewCust.clickOnSaveButton().click();
+		Thread.sleep(5000);
+		takeSS.takeScreenShot("ScreenShot_" + BaseClass.currentDateTimeGenerator());
 	}
 
 	@Then("User can view confirmation message {string}")
@@ -159,9 +165,11 @@ public class Steps extends BaseClass {
 	}
 
 	@Then("Validate the Specific Email Id is getting reflected")
-	public void validate_the_Specific_Email_Id_is_getting_reflected() {
+	public void validate_the_Specific_Email_Id_is_getting_reflected() throws Exception {
 		logger.info("************* Validating Search Customer through Email Id *****************");
 		Assert.assertTrue(searchCust.searchByEmail("james_pan@nopCommerce.com"));
+		Thread.sleep(5000);
+		takeSS.takeScreenShot("ScreenShot_" + BaseClass.currentDateTimeGenerator());
 	}
 
 	@Then("Enter the Firstname & Lastname")
@@ -172,9 +180,10 @@ public class Steps extends BaseClass {
 	}
 
 	@Then("Validate the Specific Firstname & Lastname Id is getting reflected")
-	public void validate_the_Specific_Firstname_Lastname_Id_is_getting_reflected() {
+	public void validate_the_Specific_Firstname_Lastname_Id_is_getting_reflected() throws Exception {
 		logger.info("************* Validating Search Customer through FirstName & LastName *****************");
 		Assert.assertTrue(searchCust.searchByFirstAndLastName("Brenda Lindgren"));
+		Thread.sleep(5000);
+		takeSS.takeScreenShot("ScreenShot_" + BaseClass.currentDateTimeGenerator());
 	}
-
 }
