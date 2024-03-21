@@ -892,3 +892,55 @@
 2024-03-17 17:33:30,089  INFO [main] nopCommerce:70 - ************* Logging In *****************
 2024-03-17 17:33:35,074  INFO [main] nopCommerce:82 - ************* Display Invalid Login Message *****************
 2024-03-17 17:33:35,395  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
+2024-03-21 15:00:33,810  INFO [main] nopCommerce:54 - ************* Launching Test-Site Url *****************
+2024-03-21 15:00:39,089  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:00:39,118  INFO [main] nopCommerce:62 - ************* Sending Email Id & Password *****************
+2024-03-21 15:00:41,700  INFO [main] nopCommerce:70 - ************* Logging In *****************
+2024-03-21 15:00:49,981  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:00:50,229  INFO [main] nopCommerce:113 - ************* Navigated on Customer Page *****************
+2024-03-21 15:00:51,878  INFO [main] nopCommerce:119 - ************* Navigated to Add New Customer Page *****************
+2024-03-21 15:00:54,046  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:00:56,067  INFO [main] nopCommerce:126 - ************* Filling New Customer Details *****************
+2024-03-21 15:00:58,174  INFO [main] nopCommerce:141 - ************* Saving New Customer Details *****************
+2024-03-21 15:01:04,652  INFO [main] nopCommerce:149 - ************* New Customer Created Successfully *****************
+2024-03-21 15:01:04,944  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
+2024-03-21 15:01:09,268  INFO [main] nopCommerce:54 - ************* Launching Test-Site Url *****************
+2024-03-21 15:01:14,270  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:01:14,303  INFO [main] nopCommerce:62 - ************* Sending Email Id & Password *****************
+2024-03-21 15:01:16,975  INFO [main] nopCommerce:70 - ************* Logging In *****************
+2024-03-21 15:01:26,964  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:01:27,183  INFO [main] nopCommerce:113 - ************* Navigated on Customer Page *****************
+2024-03-21 15:01:29,054  INFO [main] nopCommerce:156 - ************* Searching customer via Email Id *****************
+2024-03-21 15:01:30,672  INFO [main] nopCommerce:163 - ************* Clicked on Search Button *****************
+2024-03-21 15:01:32,862  INFO [main] nopCommerce:169 - ************* Validating Search Customer through Email Id *****************
+2024-03-21 15:01:38,230  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
+2024-03-21 15:01:42,640  INFO [main] nopCommerce:54 - ************* Launching Test-Site Url *****************
+2024-03-21 15:01:46,912  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:01:46,933  INFO [main] nopCommerce:62 - ************* Sending Email Id & Password *****************
+2024-03-21 15:01:49,477  INFO [main] nopCommerce:70 - ************* Logging In *****************
+2024-03-21 15:01:56,997  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:01:57,290  INFO [main] nopCommerce:113 - ************* Navigated on Customer Page *****************
+2024-03-21 15:01:59,594  INFO [main] nopCommerce:177 - ************* Searching customer via FirstName & LastName *****************
+2024-03-21 15:02:01,190  INFO [main] nopCommerce:163 - ************* Clicked on Search Button *****************
+2024-03-21 15:02:03,327  INFO [main] nopCommerce:184 - ************* Validating Search Customer through FirstName & LastName *****************
+2024-03-21 15:02:08,769  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
+2024-03-21 15:02:13,438  INFO [main] nopCommerce:54 - ************* Launching Test-Site Url *****************
+2024-03-21 15:02:17,831  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:02:17,851  INFO [main] nopCommerce:62 - ************* Sending Email Id & Password *****************
+2024-03-21 15:02:20,396  INFO [main] nopCommerce:70 - ************* Logging In *****************
+2024-03-21 15:02:26,622  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:02:26,641  INFO [main] nopCommerce:92 - ************* Logged Out Successfully *****************
+2024-03-21 15:02:33,779  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:02:33,790  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
+2024-03-21 15:02:38,266  INFO [main] nopCommerce:54 - ************* Launching Test-Site Url *****************
+2024-03-21 15:02:42,174  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:02:42,201  INFO [main] nopCommerce:62 - ************* Sending Email Id & Password *****************
+2024-03-21 15:02:44,898  INFO [main] nopCommerce:70 - ************* Logging In *****************
+2024-03-21 15:02:51,141  INFO [main] nopCommerce:82 - ************* Display Invalid Login Message *****************
+2024-03-21 15:02:51,483  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
+2024-03-21 15:02:55,732  INFO [main] nopCommerce:54 - ************* Launching Test-Site Url *****************
+2024-03-21 15:02:59,120  INFO [main] nopCommerce:85 - ************* Validating Page Title *****************
+2024-03-21 15:02:59,134  INFO [main] nopCommerce:62 - ************* Sending Email Id & Password *****************
+2024-03-21 15:03:01,793  INFO [main] nopCommerce:70 - ************* Logging In *****************
+2024-03-21 15:03:06,550  INFO [main] nopCommerce:82 - ************* Display Invalid Login Message *****************
+2024-03-21 15:03:06,839  INFO [main] nopCommerce:100 - ************* Closing Browser *****************
